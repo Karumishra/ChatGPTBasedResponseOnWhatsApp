@@ -1,0 +1,21 @@
+<div class="mat-card" >
+    <h2 class="mat-card-title">Messanger</h2>
+    <br>
+    <button class="chat" disabled="true">{{MessageFromWhatsApp}}</button>
+    <div class="mat-card-content">
+       
+        <div *ngIf="this.flag2==false">
+            <button class="chat" (click)="sendResponse1()" [style.backgroundColor]="buttonColor">{{resultArray[1].slice(0,-1)}}</button>
+        <!-- <h3>{{msg1}}</h3> -->
+
+        </div>
+        
+        <br>
+        <div *ngIf="this.flag1==false">
+        <button class="chat" (click)="sendResponse2()" [style.backgroundColor]="buttonColor1">{{resultArray[2]}}</button>
+        <!-- <h3>{{msg2}}</h3> -->
+        </div>
+        <br>
+    </div>
+</div>
+

@@ -1,0 +1,63 @@
+/* Reset some default styles */
+body, h1, p,button {
+    margin: 10;
+    padding: 20;
+    text-align: justify;
+  }
+
+  
+  /* Style for the card container */
+  .chat{
+    padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+ 
+  }
+  .mat-card {
+    width: 320px;
+    height: 500px;
+    justify-content: left; /* Horizontally center the card */
+    align-items: center;
+    background-color:rgb(232, 246, 247);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 40px;
+
+  }
+  
+  /* Style for the card image */
+  .mat-card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style for the card content */
+  .mat-card-content {
+    padding: 16px;
+    width: 300px;
+
+  }
+  .mat-card-content1 {
+    padding: 16px;
+    width: 300px;
+    align-items: right;
+
+  }
+  
+  /* Style for the card title */
+  .mat-card-title {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+  
+  /* Style for the card text */
+  .mat-card-text {
+    margin: 10px 0;
+  }
+
+  
